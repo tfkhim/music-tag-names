@@ -1,5 +1,5 @@
 # music-tag-names
-Python program for renaming music files based on meta data
+Python program for renaming music files based on meta data. Mostly for my own private use.
 
 ### Dependencies
 
