@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name = "music-tag-names",
     version = "0.1",
-    packages = find_packages(),
 
-    install_requires = ['mutagen>=1.29']
+    scripts = ["music_tag_names.py"],
+
+    install_requires = ['mutagen>=1.29'],
 )
-
